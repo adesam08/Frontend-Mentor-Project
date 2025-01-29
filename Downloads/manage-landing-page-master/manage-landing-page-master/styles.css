@@ -1,0 +1,163 @@
+*{
+    font-family: "Be Vietnam Pro", serif;
+    font-weight: 500;
+    font-style: normal;
+    color:hsl(227, 12%, 61%)
+}
+h1{
+    font-weight: 700;
+    font-size: 70px;
+    color: hsl(228, 39%, 23%);
+
+}
+h2{
+    color: hsl(228, 39%, 23%);
+}
+body{
+    background-image: url(/images/bg-tablet-pattern.svg);
+    background-repeat: no-repeat;
+    /* background-size:1920px 1080px ; */
+    /* background-position-x: 600px;
+    background-position-y: -200px; */
+    /* background-position-x: 700px; */
+    /* background-position-y: -100px; */
+}
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color:hsl(228, 45%, 44%);  
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+.links{
+    display: flex;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+}
+li{
+    text-decoration: none;
+    color: hsl(228, 39%, 23%);
+}
+li:hover{
+    color: hsl(227, 12%, 61%);
+}
+li{
+    list-style: none;
+}
+.getstarted{
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+.getstarted:hover{
+    color: white;
+    background-color: hsl(12, 91%, 71%);
+    box-shadow: 7px 7px 16px hsl(12, 88%, 59%);
+    transition: all;
+    transition-duration: 700ms;
+}
+.bring-illustration{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 200px;
+}
+.manage{
+    margin-bottom: 50px;
+}
+.about-manage{
+    display: grid;
+    gap: 100px;
+    justify-content: center;
+    grid-template-columns: 600px 600px;
+    grid-template-columns: ma;
+}
+.manage-header{
+    font-size: 30px;
+    margin: 0;
+}
+.manage-info{
+    display: flex;
+    gap: 20px;
+    justify-content:start;
+    align-items:start;
+}
+.info-num{
+    margin-top: 25px;
+    color: white;
+    background-color: hsl(12, 88%, 59%);
+    padding: 5px 15px;
+    border-radius: 15px;
+}
+.comment-header{
+    font-size: 30px;
+    text-align: center;
+}
+.people{
+    display: flex;
+    gap: 20px;
+}
+.words{
+    background-color: hsl(0, 13%, 88%);
+    text-align: center;
+}
+.anisha{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.ali{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.richard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.people-comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+.simplify{
+    color: white;
+}
+.getstarted-footer{
+    background-color: hsl(12, 88%, 59%);
+    background-image: url(/images/bg-simplify-section-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -100px;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    gap: 500px;
+    justify-content: center;
+    margin-top: 200px;
+}
+.getstarted-white-button{
+    color: hsl(12, 88%, 59%);
+    background-color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+@media screen and (max-width:400px) {
+    .links{
+        display: none;
+    }
+}
